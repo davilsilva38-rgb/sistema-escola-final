@@ -1,12 +1,4 @@
-# ============================================================
-#  SISTEMA ESCOLAR v3 - DESAFIO FINAL | SENAI
-#  Disciplina: Desenvolvimento de Sistemas / Git e GitHub
-#
-#  Este arquivo é o ponto de partida do seu desafio final.
-#  Você NÃO vai corrigir bugs desta vez.
-#  Você vai CONSTRUIR o histórico do projeto do zero,
-#  seguindo as etapas do roteiro de atividade.
-# ============================================================
+
 
 
 # ------------------------------------------------------------
