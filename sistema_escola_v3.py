@@ -78,3 +78,11 @@ if __name__ == "__main__":
     # freq = calcular_frequencia(40, 6)
     # print("Frequência:", freq)
     # print("Situação:", situacao_final(media, freq))
+def cadastrar_aluno(nome, turma, idade):
+    aluno = {
+        "nome": nome,
+        "turma": turma,
+        "idade": idade
+    }
+    return aluno
+
