@@ -107,3 +107,6 @@ def verificar_aprovacao(media):
 
 
 
+def gerar_email(nome, turma):
+    nome_formatado = nome.lower().replace(" ", ".")
+    return f"{nome_formatado}.{turma.lower()}@senai.br"
