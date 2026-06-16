@@ -89,5 +89,12 @@ if __name__ == "__main__":
     # freq = calcular_frequencia(40, 6)
     # print("Frequência:", freq)
     # print("Situação:", situacao_final(media, freq))
+def exibir_aluno(aluno):
+    print("==== DADOS DO ALUNO ====")
+    print(f"Nome : {aluno['nome']}")
+    print(f"Turma: {aluno['turma']}")
+    print(f"Idade: {aluno['idade']} anos")
+    print("========================")
+
 
 
