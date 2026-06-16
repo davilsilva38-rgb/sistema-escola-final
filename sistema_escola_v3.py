@@ -112,3 +112,9 @@ def gerar_email(nome, turma):
     return f"{nome_formatado}.{turma.lower()}@senai.br"
 
 feat: adiciona funcao gerar_email
+
+python
+def calcular_frequencia(aulas_dadas, faltas):
+    presencas = aulas_dadas - faltas
+    percentual = (presencas / aulas_dadas) * 100
+    return round(percentual, 2)
