@@ -95,6 +95,9 @@ def exibir_aluno(aluno):
     print(f"Turma: {aluno['turma']}")
     print(f"Idade: {aluno['idade']} anos")
     print("========================")
+`python
+def calcular_media(notas):
+    return sum(notas) / len(notas)
 
 
 
