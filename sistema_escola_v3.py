@@ -1,6 +1,17 @@
 
 
 
+# ============================================================
+#  SISTEMA ESCOLAR v3 - DESAFIO FINAL | SENAI
+#  Disciplina: Desenvolvimento de Sistemas / Git e GitHub
+#
+#  Este arquivo é o ponto de partida do seu desafio final.
+#  Você NÃO vai corrigir bugs desta vez.
+#  Você vai CONSTRUIR o histórico do projeto do zero,
+#  seguindo as etapas do roteiro de atividade.
+# ============================================================
+
+
 # ------------------------------------------------------------
 # ETAPA 1 — Funções já prontas (não mexa aqui)
 # Faça o commit inicial com este bloco funcionando.
@@ -78,11 +89,5 @@ if __name__ == "__main__":
     # freq = calcular_frequencia(40, 6)
     # print("Frequência:", freq)
     # print("Situação:", situacao_final(media, freq))
-def cadastrar_aluno(nome, turma, idade):
-    aluno = {
-        "nome": nome,
-        "turma": turma,
-        "idade": idade
-    }
-    return aluno
+
 
